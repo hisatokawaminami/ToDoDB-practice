@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v1.1": {
-      "ToDoList/1.0.0": {
+      "todolist/1.0.0": {
         "runtime": {
           "ToDoList.dll": {}
         }
@@ -14,7 +14,7 @@
     }
   },
   "libraries": {
-    "ToDoList/1.0.0": {
+    "todolist/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
