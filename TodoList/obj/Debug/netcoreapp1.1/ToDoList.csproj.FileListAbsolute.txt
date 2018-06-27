@@ -1,0 +1,8 @@
+/Users/austinbarr/Desktop/ToDoList.Solution/TodoList/bin/Debug/netcoreapp1.1/ToDoList.deps.json
+/Users/austinbarr/Desktop/ToDoList.Solution/TodoList/bin/Debug/netcoreapp1.1/ToDoList.dll
+/Users/austinbarr/Desktop/ToDoList.Solution/TodoList/bin/Debug/netcoreapp1.1/ToDoList.pdb
+/Users/austinbarr/Desktop/ToDoList.Solution/TodoList/obj/Debug/netcoreapp1.1/ToDoList.csproj.CoreCompileInputs.cache
+/Users/austinbarr/Desktop/ToDoList.Solution/TodoList/obj/Debug/netcoreapp1.1/ToDoList.AssemblyInfoInputs.cache
+/Users/austinbarr/Desktop/ToDoList.Solution/TodoList/obj/Debug/netcoreapp1.1/ToDoList.AssemblyInfo.cs
+/Users/austinbarr/Desktop/ToDoList.Solution/TodoList/obj/Debug/netcoreapp1.1/ToDoList.dll
+/Users/austinbarr/Desktop/ToDoList.Solution/TodoList/obj/Debug/netcoreapp1.1/ToDoList.pdb
