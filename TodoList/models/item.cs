@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System;
+
 namespace ToDoList.Models
 {
   public class Item
@@ -30,35 +31,6 @@ namespace ToDoList.Models
     public static void ClearAll()
     {
       _instances.Clear();
-    }
-  }
-
-  public class Program
-  {
-    public static void Main()
-    {
-      Console.WriteLine("Welcome to the TO DO LIST");
-      Console.WriteLine("Would you like to add an item to your list or view your list?(Add/View)");
-
-      string addView = Console.ReadLine().ToUpper();
-      if(addView == "ADD")
-      {
-        Console.WriteLine("Enter a to-do...");
-        Item userItem = new Item(Console.ReadLine());
-        userItem.Save();
-        Console.WriteLine (userItem.GetDescription() + " has been added to your list");
-        Main();
-      }
-      else
-      {
-        List<Item> result = Item.GetAll();
-        foreach (Item thisItem in result)
-        {
-          Console.WriteLine(thisItem.GetDescription());
-        }
-        // Console.WriteLine("Here is yout to-do's: " + result);
-        // Console.WriteLine(userItem.GetAll());
-      }
     }
   }
 }
