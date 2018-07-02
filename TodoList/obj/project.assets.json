@@ -9524,16 +9524,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Guest/Desktop/ToDo-List/TodoList/ToDoList.csproj",
+      "projectUniqueName": "/Users/Guest/Desktop/ToDo-List/ToDoList/ToDoList.csproj",
       "projectName": "ToDoList",
-      "projectPath": "/Users/Guest/Desktop/ToDo-List/TodoList/ToDoList.csproj",
-      "outputPath": "/Users/Guest/Desktop/ToDo-List/TodoList/obj/",
+      "projectPath": "/Users/Guest/Desktop/ToDo-List/ToDoList/ToDoList.csproj",
+      "outputPath": "/Users/Guest/Desktop/ToDo-List/ToDoList/obj/",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/ToDoList.dll": "/Users/Guest/Desktop/ToDo-List/TodoList/bin/placeholder/netcoreapp1.1/ToDoList.dll"
+        "lib/netcoreapp1.1/ToDoList.dll": "/Users/Guest/Desktop/ToDo-List/ToDoList/bin/placeholder/netcoreapp1.1/ToDoList.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
