@@ -8,12 +8,14 @@ namespace ToDoList.Models
     private string _description;
     private int _id;
     private static List<Item> _instances = new List<Item> {};
+    private static int _lastIdAssigned = 0;
 
     public Item (string description)
     {
       _description = description;
       _instances.Add(this);
-      _id = _instances.Count;
+      _lastIdAssigned++;
+      _id = _lastIdAssigned;
     }
     public string GetDescription()
     {
@@ -37,7 +39,14 @@ namespace ToDoList.Models
     }
     public static Item Find(int searchId)
     {
-      return _instances[searchId-1];
+      foreach(Item thisItem in _instances)
+      {
+        if(thisItem.GetId() == searchId)
+        {
+          return thisItem;
+        }
+      }
+      return null;
     }
   }
 }
