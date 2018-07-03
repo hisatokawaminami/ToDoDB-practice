@@ -1,5 +1,8 @@
 <h1>To Do List</h1>
 <ul>
-  <li>@Model.GetDescription()</li>
+  @foreach(var items in Model)
+  {
+    <li>@items.GetDescription()</li>
+  }
 </ul>
-<a href="/items/new">Add a new item.</a>
+<a href="/new">Add a new item.</a>
