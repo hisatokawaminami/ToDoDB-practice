@@ -1,7 +1,14 @@
-<h1>To Do List</h1>
+<!-- <h1>To Do List</h1>
 <form action="/items" method="post">
   <label for="new-item">Add a new item</label>
   <input id="new-item" name="new-item" type="text" class="form-control">
   <button type="submit">Submit</button>
 </form>
-<a href="/items">View List</a>
+<a href="/items">View List</a> -->
+<h1>Add a new item to @Model.GetName()</h1>
+<form action='/items' method='post'>
+  <input id='category-id' name='category-id' type='hidden' value='@Model.GetId()'>
+  <label for='item-description'>Item description</label>
+  <input id='item-description' name='item-description' type='text'>
+  <button type='submit'>Add item</button>
+</form>
